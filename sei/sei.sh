@@ -34,6 +34,7 @@ echo -e "Your port: \e[1m\e[32m$SEI_PORT\e[0m"
 echo '================================================='
 sleep 2
 
+
 echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
 # update
 sudo apt update && sudo apt upgrade -y
